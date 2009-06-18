@@ -1,0 +1,10 @@
+* Make sure that you have the following installed
+  * FTGL v2.1.3~rc5 
+  * Freetype v2.3.9
+* Download and install SIP (http://www.riverbankcomputing.co.uk/software/sip)
+* Edit configure.py
+  * makefile.extra_lflags 
+  * makefile.extra_include_dirs
+* python configure.py
+* make
+* make install
