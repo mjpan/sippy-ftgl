@@ -13,6 +13,7 @@ setup(
     ],
     include_dirs=['.', '/usr/local/include', '/usr/local/include/freetype2'],
     cmdclass = {'build_ext':sipdistutils.build_ext},
+    test_suite='test',
 
     # metadata for upload to PyPI
     author = "michael j pan",
